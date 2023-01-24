@@ -30,3 +30,24 @@ header > nav > a {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+main{
+  flex-grow: 1;
+  padding: 0.5rem;
+
+}
+main a{
+  color: blue;
+}
+main img{
+  max-width: 200px;
+}
+footer{
+  background-color: rgb(169, 44, 207);
+  color: #fff;
+  padding: 1rem 0.5rem;
+  font-size: 0.75rem;
+  
+}
+footer > nav > a {
+  margin-right: 1rem;
+}

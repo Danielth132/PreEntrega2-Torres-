@@ -1,14 +1,15 @@
-
+import { BrowserRouter } from 'react-router-dom';
 import Header from './Header';
-import ItemListContainer from './itemListContainer';
+import Footer from './Footer';
+import Main from './Main';
 
 function App() {
   return (
-    <>
-      <Header titulo="Mundo Tecno" />
-      <ItemListContainer greeting="Item List Container" />
-      
-    </>
+    <BrowserRouter>
+      <Header titulo="One Appstore"/>
+      <Main/>
+      <Footer/>
+    </BrowserRouter>
   )
     
 }
